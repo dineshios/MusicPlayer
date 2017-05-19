@@ -1,10 +1,3 @@
-//
-//  AppDelegate.m
-//  MusicPlayer
-//
-//  Created by IGPL on 18/05/17.
-//  Copyright © 2017 IGPL. All rights reserved.
-//
 
 #import "AppDelegate.h"
 

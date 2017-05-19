@@ -44,9 +44,6 @@
 		FA3A52331ECDC8D400489EBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A52301ECDC8D400489EBE /* ViewController.m */; };
 		FA3A52341ECDC8D400489EBE /* NSString+TimeToString.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A52321ECDC8D400489EBE /* NSString+TimeToString.m */; };
 		FA3A52371ECDC8E000489EBE /* MusicPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A52361ECDC8E000489EBE /* MusicPlayerController.m */; };
-		FA3A523B1ECDC94100489EBE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3A52381ECDC94100489EBE /* Default.png */; };
-		FA3A523C1ECDC94100489EBE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3A52391ECDC94100489EBE /* Default@2x.png */; };
-		FA3A523D1ECDC94100489EBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3A523A1ECDC94100489EBE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,9 +111,6 @@
 		FA3A52321ECDC8D400489EBE /* NSString+TimeToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeToString.m"; sourceTree = "<group>"; };
 		FA3A52351ECDC8E000489EBE /* MusicPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerController.h; sourceTree = "<group>"; };
 		FA3A52361ECDC8E000489EBE /* MusicPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerController.m; sourceTree = "<group>"; };
-		FA3A52381ECDC94100489EBE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FA3A52391ECDC94100489EBE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		FA3A523A1ECDC94100489EBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,9 +209,6 @@
 		FA3A522E1ECDC8AC00489EBE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A52381ECDC94100489EBE /* Default.png */,
-				FA3A52391ECDC94100489EBE /* Default@2x.png */,
-				FA3A523A1ECDC94100489EBE /* Default-568h@2x.png */,
 				FA3A51FA1ECDC8A200489EBE /* Play_Similar_Music_Pressed.png */,
 				FA3A51FB1ECDC8A200489EBE /* Play_Similar_Music_Pressed@2x.png */,
 				FA3A51FC1ECDC8A200489EBE /* Play_Similar_Music.png */,
@@ -370,15 +361,12 @@
 				FA3A51D71ECDC84B00489EBE /* LaunchScreen.storyboard in Resources */,
 				FA3A51D41ECDC84B00489EBE /* Assets.xcassets in Resources */,
 				FA3A521D1ECDC8A200489EBE /* Controls_Rewind@2x.png in Resources */,
-				FA3A523D1ECDC94100489EBE /* Default-568h@2x.png in Resources */,
-				FA3A523C1ECDC94100489EBE /* Default@2x.png in Resources */,
 				FA3A522C1ECDC8A200489EBE /* Track_Shuffle_On.png in Resources */,
 				FA3A521C1ECDC8A200489EBE /* Controls_Rewind.png in Resources */,
 				FA3A52291ECDC8A200489EBE /* Track_Repeat_On_Track@2x.png in Resources */,
 				FA3A52271ECDC8A200489EBE /* Track_Repeat_On@2x.png in Resources */,
 				FA3A521A1ECDC8A200489EBE /* Controls_Play.png in Resources */,
 				FA3A52151ECDC8A200489EBE /* Play_Similar_Music_Pressed@2x.png in Resources */,
-				FA3A523B1ECDC94100489EBE /* Default.png in Resources */,
 				FA3A51CF1ECDC84B00489EBE /* Main.storyboard in Resources */,
 				FA3A52181ECDC8A200489EBE /* Controls_Pause.png in Resources */,
 				FA3A52221ECDC8A200489EBE /* Controls_Skip_Pressed.png in Resources */,
@@ -658,6 +646,7 @@
 				FA3A51F31ECDC84B00489EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3A51F41ECDC84B00489EBE /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +655,7 @@
 				FA3A51F61ECDC84B00489EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3A51F71ECDC84B00489EBE /* Build configuration list for PBXNativeTarget "MusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +664,7 @@
 				FA3A51F91ECDC84B00489EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
